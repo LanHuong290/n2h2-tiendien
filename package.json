@@ -1,0 +1,16 @@
+{
+  "name": "downloads",
+  "version": "1.0.0",
+  "description": "The OpenShift client `oc.exe` simplifies working with Kubernetes and OpenShift\r clusters, offering a number of advantages over `kubectl.exe` such as easy login,\r kube config file management, and access to developer tools.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ronin-mocks": "^0.1.6",
+    "ronin-server": "^0.1.3"
+  }
+}
