@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tính tiền điện</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="col-6 form-calculate">
+                <h1>TÍNH TIỀN ĐIỆN - N2H2</h1>
+                <div class="line"></div>
+                <div class="col-12 d-flex f-wrap mt-2">
+                    <div class="col-3">
+                        <h2 class="nav-1">Số điện cũ:</h2>
+                    </div>
+                    <div class="col-9 d-flex f-wrap">
+                        <input type="text" name="tcs" id="diem1"' placeholder="Nhập số điện cũ" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nhập số điện cũ'">
+                        <h3 class="nav-1">kWh</h3>
+                    </div>
+                </div>
+                <div class="col-12 d-flex f-wrap mt-2">
+                    <div class="col-3">
+                        <h2 class="nav-1">Số điện mới:</h2>
+                    </div>
+                    <div class="col-9 d-flex f-wrap">
+                        <input type="text" name="tcs" id="diem2"' placeholder="Nhập số điện mới" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nhập số điện mới'">
+                        <h3 class="nav-1">kWh</h3>
+                    </div>
+                </div>
+                <div class="col-12 d-flex f-wrap mt-2">
+                    <div class="col-3">
+                        <h2 class="nav-1">Số điện tiêu thụ:</h2>
+                    </div>
+                    <div class="col-9 d-flex f-wrap">
+                        <input type='text' value="" name='tcs' id="tcs" onclick="tcs.value=Tinhchiso()"/>
+                        <h3 class="nav-1">kWh</h3>
+                    </div>
+                </div>
+                <div class="col-12 d-flex f-wrap mt-2">
+                    <div class="col-3">
+                        <h2 class="nav-1">Tổng tiền điện:</h2>
+                    </div>
+                    <div class="col-9 d-flex f-wrap">
+                        <input type='text' value="" name='tcs' id='ttt'/>
+                        <h3 class="nav-1">VNĐ</h3>
+                    </div>
+                </div>
+                <div class="col-12 ta-center">
+                    <button id="btn-tt" onclick="ttt.value=Tinhtien()">Tính tiền</button>
+                </div>
+            </div>
+        </div>
+        <script src="../Tinh-tien-dien/js/function.js"></script>
+    </body>
+</html>
